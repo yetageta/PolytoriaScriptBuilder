@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<Item class="Environment">
+		<Properties>
+			<string name="name">Environment</string>
+		</Properties>
+		<Item class="Part">
+			<Properties>
+				<string name="name">SpawnPart</string>
+				<vector3 name="position">
+					<X>0.00</X>
+					<Y>-5.00</Y>
+					<Z>0.00</Z>
+				</vector3>
+				<vector3 name="rotation">
+					<X>0.00</X>
+					<Y>0.00</Y>
+					<Z>0.00</Z>
+				</vector3>
+				<vector3 name="scale">
+					<X>512.00</X>
+					<Y>10.00</Y>
+					<Z>512.00</Z>
+				</vector3>
+				<string name="color">#A3A2A5</string>
+				<string name="shape">cube</string>
+				<int name="material">0</int>
+				<boolean name="anchored">true</boolean>
+				<boolean name="canCollide">true</boolean>
+				<boolean name="isSpawn">false</boolean>
+				<boolean name="hideStuds">false</boolean>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<string name="name">Part</string>
+				<vector3 name="position">
+					<X>6.00</X>
+					<Y>27.00</Y>
+					<Z>-3.00</Z>
+				</vector3>
+				<vector3 name="rotation">
+					<X>0.00</X>
+					<Y>0.00</Y>
+					<Z>0.00</Z>
+				</vector3>
+				<vector3 name="scale">
+					<X>2.00</X>
+					<Y>2.00</Y>
+					<Z>2.00</Z>
+				</vector3>
+				<string name="color">#000000</string>
+				<string name="shape">cube</string>
+				<int name="material">0</int>
+				<boolean name="anchored">true</boolean>
+				<boolean name="canCollide">true</boolean>
+				<boolean name="isSpawn">false</boolean>
+				<boolean name="hideStuds">true</boolean>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="ScriptService">
+		<Properties>
+			<string name="name">ScriptService</string>
+		</Properties>
+	</Item>
+</game>
