@@ -1,5 +1,8 @@
 # PolytoriaScriptBuilder
 
-A thing that... adds scripts to the Polytoria XML so I don't need to wait months for a script editor
+Program your Polytoria game with an external editor
 
-https://docs.polytoria.com/api/Polytoria.Datamodel/
+Scripting Docs:
+(https://docs.polytoria.com/api/Polytoria.Datamodel/)
+
+An addon to publish scripted games will be worked on; the current creator doesn't upload any added Scripting XML
